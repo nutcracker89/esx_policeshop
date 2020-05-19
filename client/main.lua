@@ -125,7 +125,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if PlayerData.job ~= nil and PlayerData.job.name == 'cartel' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'police' then
 
 			local coords = GetEntityCoords(PlayerPedId())
 
@@ -148,7 +148,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if PlayerData.job ~= nil and PlayerData.job.name == 'cartel' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'police' then
 
 			local coords      = GetEntityCoords(PlayerPedId())
 			local isInMarker  = false
