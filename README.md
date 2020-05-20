@@ -1,6 +1,6 @@
 # esx_policeshop only for police
 
-Modified from esx_shop
+Modified from esx_shop for older version of es_extended
 
 
 ## Installation
